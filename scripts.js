@@ -9,3 +9,12 @@ if (value > 0) {
 } else {
 	console.log("wynik ujemny")
 }
+
+switch (value) {
+	case 0:
+	console.log("wynik jest równy zero")
+	break;
+
+	default:
+	console.log("wynik nie jest równy zero")
+}
