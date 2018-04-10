@@ -1,11 +1,13 @@
-var a = 3;
-	b = 5;
+var a = 3,
+	b = 5,
 	value = (a * a) - (2 * a * b) - (b * b);
 
 console.log(value);
 
 if (value > 0) {
 	console.log("wynik dodatni")
+} else if (value == 0 ) {
+	console.log("wynik równy zero")
 } else {
 	console.log("wynik ujemny")
 }
